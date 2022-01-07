@@ -1,0 +1,32 @@
+T15I7N0.5KD1K
+sup 0.5%
+sup 5
+frq item=7029
+
+---
+
+T15I7N0.5KD10K
+sup 0.5%
+sup 50
+frq item=4353
+
+---
+
+T15I7N0.5KD100K
+sup 0.5%
+sup 500
+frq item=4117
+
+---
+
+T15I7N0.5KD1000K
+sup 3%
+sup 30000
+frq item=184
+
+筆記一下
+C2不符合minsup的記錄起來
+且從C2刪除後建立L2
+將L2元素個數進行組合建立C3
+檢查C2不符合minsup的元素是否存在C3，如有責刪除set(c2)<set(c3)
+處理完C3後掃描表建立L3
